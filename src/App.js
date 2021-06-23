@@ -9,9 +9,6 @@ import FaceRecognition from './components/facerecognition/facerecognition'
 import Rank from './components/Rank/Ranks'
 import Particles from 'react-particles-js';
 import Register from './components/register/register'
-const app = new Clarifai.App({
- apiKey: '54af97c426854709bd4bc599c37da211'
-});
 const particleOptions={
                 particles: {
                   number:{
