@@ -91,7 +91,7 @@ class Register extends React.Component{
       			 
       			  
       			  <div className="tc b f6 mt4 o-70 glow pa2 i">
-      			    Have an account? <a onClick={()=>this.props.onRouteChange('signin')} className="white pointer" href="/#">Sign in</a>
+      			    Have an account? <a onClick={()=>this.props.onRouteChange('signin')} className="white pointer" href="#">Sign in</a>
       			  </div>
       			</div>
     		</div>
