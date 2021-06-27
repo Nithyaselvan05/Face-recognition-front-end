@@ -80,7 +80,7 @@ class SignIn extends React.Component{
       			
       			  
       			  <div className="tc b f6 mt4 o-70 glow pa2 i">
-      			    New Member? <a onClick={()=>onRouteChange('register')} className="white" href="/#">Register</a>
+      			    New Member? <a onClick={()=>onRouteChange('register')} className="white" href="#">Register</a>
       			  </div>
       			</div>
     		</div>
